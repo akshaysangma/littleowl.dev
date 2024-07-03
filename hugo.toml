@@ -1,6 +1,6 @@
 baseURL = 'https://littleowl.dev/'
 languageCode = 'en-us'
-title = 'LittleOwl.dev'
+title = 'littleOwl.dev'
 theme = 'typo'
 
 [taxonomies]
@@ -11,7 +11,7 @@ googleAnalytics = "G-xxxxxxxxx"
 
 [params]
 # Meta description
-description = "A Tech Blog"
+description = "A digital notebook"
 
 # Appearance settings
 theme = 'auto'
@@ -19,9 +19,33 @@ colorPalette = 'default'
 hideHeader = false
 
 # Intro on main page, content is markdown
-homeIntroTitle = 'Hi!'
+homeIntroTitle = 'Welcome to littleOwl.dev'
 homeIntroContent = """
-I am a Software Engineer and my GF is Reiyuski Voldomir"""
+Hey there! I'm Akshay Sangma, a software engineer with nearly six years of experience under my belt. Welcome to littleOwl.dev, my little corner of the internet where I'll be sharing my journey through the fascinating world of technology.
+
+## Why littleOwl?
+
+Just as the owl symbolizes knowledge and wisdom, littleOwl.dev represents my ongoing quest for learning and understanding in the vast realm of software engineering. Like a curious owl, I'm always on the lookout for new insights and experiences to share.
+
+## What to Expect
+
+This blog serves as my digital notebook, a place where I'll be documenting my learning adventures, particularly in the realm of distributed systems. As I delve deeper into this complex and exciting field, I'll be sharing my insights, challenges, and "aha!" moments.
+
+But that's not all! You'll also find posts about:
+
+- Projects I'm tinkering with in my free time
+- Hobby coding adventures
+- Miscellaneous software tech topics that catch my interest
+- My thoughts and opinions on the ever-evolving tech landscape
+
+Whether you're a fellow engineer, a tech enthusiast, or just someone curious about the world of software, I hope you'll find something interesting here. Feel free to join me on this learning journey – let's explore, discuss, and grow together in the vast universe of technology!
+
+Stay curious, keep coding, and welcome to littleOwl.dev!
+
+## Let's Connect!
+
+I'd love to hear from you! Feel free to reach out to me via the social media links provided below. Whether you have questions, suggestions, or just want to chat about tech, don't hesitate to connect!
+"""
 
 # Collection to display on home
 homeCollectionTitle = 'Posts'
@@ -30,7 +54,7 @@ homeCollection = 'posts'
 # Lists parameters
 paginationSize = 100
 listSummaries = true
-listDateFormat = '2 Jan 2006'
+listDateFormat = '02 Jan 2006'
 
 # Breadcrumbs
 breadcrumbs = true
@@ -38,15 +62,11 @@ breadcrumbs = true
 # Social icons
 [[params.social]]
 name = "linkedin"
-url = "https://www.linkedin.com/in/user/"
-
-[[params.social]]
-name = "medium"
-url = "https://medium.com/@user"
+url = "https://www.linkedin.com/in/akshay-sangma/"
 
 [[params.social]]
 name = "github"
-url = "https://github.com/user"
+url = "https://github.com/akshaysangma"
 
 # Main menu pages
 [[params.menu]]
@@ -56,10 +76,6 @@ url = "/"
 [[params.menu]]
 name = "posts"
 url = "/posts"
-
-[[params.menu]]
-name = "about"
-url = "/about"
 
 # Syntax highligth on code blocks
 [markup]
